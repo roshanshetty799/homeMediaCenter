@@ -10,7 +10,9 @@ const CardList = function ({robots}) {
               key={i} 
               id={robots[i].id} 
               name={robots[i].name} 
-              email={robots[i].email}/>
+              email={robots[i].email}
+              imageName={robots[i].imageName}
+              link={robots[i].link}/>
   })
 
   return(
